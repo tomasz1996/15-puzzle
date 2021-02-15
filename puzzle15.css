@@ -1,81 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #1e1e1e;
-    -ms-user-select: none;
-    user-select: none;
+body {
+  background-color: #1e1e1e;
+  -ms-user-select: none;
+  user-select: none;
 }
-.intro{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 650px;
-    margin-top: 30px;
-    color: white;
-    font-family: fantasy;
-    font-weight: 400;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    z-index: 10;
-}
-
-.box-container{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border: 1px red solid;
-    box-sizing: content-box;
+.intro {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 650px;
+  margin-top: 30px;
+  color: white;
+  font-family: fantasy;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  z-index: 10;
 }
 
-.box{
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 0px;
-    left: 0px;
-    border: 1px red solid;
-    background: #2f2f2f;
-    color: white;
-    text-align: center;
-    transition: all 0.6s ease;
-    font-size: 80px;
+.box-container {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px red solid;
+  box-sizing: content-box;
 }
 
-#box33{
-    background: #1e1e1e;
-    border: none;
-    z-index: -2;
+.box {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  border: 1px red solid;
+  background: #2f2f2f;
+  color: white;
+  text-align: center;
+  transition: all 0.6s ease;
+  font-size: 80px;
 }
 
-.button-container{
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+#box33 {
+  background: #1e1e1e;
+  border: none;
+  z-index: -2;
 }
 
-#randomButton{
-    padding: 10px;
-    border-radius: 5px;
-    background: darkred;
-    border: none;
-    box-shadow: 3px 3px 3px black;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    outline: none;
+.button-container {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-#randomButton:hover{
-    cursor: pointer;
-    background: #c91c1c;
-    transform: translateY(-3px);
+#randomButton {
+  padding: 10px;
+  border-radius: 5px;
+  background: darkred;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+}
+
+#randomButton:hover {
+  cursor: pointer;
+  background: #c91c1c;
+  transform: translateY(-3px);
 }
